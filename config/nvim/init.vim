@@ -12,7 +12,7 @@ set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 syntax on                   " switch syntax highlighting on
 
 set t_Co=256                " Explicitly tell vim that the terminal supports 256 colors"
-colorscheme dracula         " Set the colorscheme
+colorscheme molokai         " Set the colorscheme
 
 " Leader
 let mapleader = ","

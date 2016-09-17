@@ -2,9 +2,12 @@ call plug#begin('~/.config/nvim/plugged')
 
 " Color schemes
 Plug 'dracula/vim'
+Plug 'flazz/vim-colorschemes'
 
 " File Drawer
-Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] } | Plug 'Xuyuanp/nerdtree-git-plugin' | Plug 'ryanoasis/vim-devicons'
+Plug 'ryanoasis/vim-devicons'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'scrooloose/nerdtree'  ", { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
 
 Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
 
